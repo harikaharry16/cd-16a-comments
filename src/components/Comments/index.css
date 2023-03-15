@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.r-container{
+    display:flex;
+    flex-direction:row;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-evenly;
+  margin-left: 45px;
+  margin-right: 80px;
+}
+.head {
+  color: #1e293b;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: start;
+  margin-left: 95px;
+}
+.label-style {
+  color: #475569;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 12px;
+}
+.btn {
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-radius: 15px;
+  border-width: 0px;
+  height: 35px;
+  width: 150px;
+  margin: 15px;
+}
+.img {
+  height: 250px;
+  width: 250px;
+  margin: 30px;
+  align-self: center;
+}
+.img-container {
+  align-items: flex-end;
+}
+.hr-line {
+  border-style: solid;
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+}
+.count-comment {
+  color: #475569;
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'Roboto';
+  margin-left: 55px;
+}
+.count {
+  height: 35px;
+  width: 35px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 35px;
+  font-size: 25px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.input {
+  height: 50px;
+  margin-bottom: 12px;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
